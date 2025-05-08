@@ -1,0 +1,18 @@
+<!-- StatsView.fxml -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" spacing="10" style="-fx-padding: 20;">
+    <Label text="Game Statistics" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+    <TableView fx:id="statsTable">
+        <columns>
+            <TableColumn text="Player 1" fx:id="player1Col"/>
+            <TableColumn text="Player 2" fx:id="player2Col"/>
+            <TableColumn text="Winner" fx:id="winnerCol"/>
+            <TableColumn text="Moves" fx:id="movesCol"/>
+            <TableColumn text="Date" fx:id="dateCol"/>
+        </columns>
+    </TableView>
+</VBox>
